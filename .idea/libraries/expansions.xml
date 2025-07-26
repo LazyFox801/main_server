@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="expansions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/PlaceholderAPI/expansions/Expansion-Statistic.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/PlaceholderAPI/expansions/Expansion-AcidIsland.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/PlaceholderAPI/expansions/Expansion-Javascript.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/PlaceholderAPI/expansions/Expansion-Player.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/PlaceholderAPI/expansions/Expansion-Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/PlaceholderAPI/expansions/Expansion-Server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

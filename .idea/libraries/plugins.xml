@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="plugins">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/citizens-2.0.24-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/NametagEdit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/ReActions.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/ChatEx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/Vault.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/PlaceholderAPI-2.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/DonatCaseFixed.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/HideStream.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/AnimationLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/worldguard-bukkit-6.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/OresToItems.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/Multiverse-Core-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/AnimatedMenuPlus.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/acidisland.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/ProtocolLib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/NametagAuto.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/NoCheatPlus.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/FishMoney-v1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/images-1.0.4-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/WorldEdit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/HolographicExtension-1.10.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/ViaVersion-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/MoreBag.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/LuckPerms-Bukkit-4.3.90.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/EasySetSpawn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/Essentials-2.x-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/SkinsRestorer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/TitleManager-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/HolographicScoreboard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/HolographicDisplays.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/ItemJoin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/CommandNPC.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/AuctionHouse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/FloatingHeads.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/AdvancedAbilities.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/AcidWater.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
