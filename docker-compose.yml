@@ -18,6 +18,7 @@ services:
       USE_MEOWICE_FLAGS: "true"
       TZ: "Europe/Moscow"
       DIFFICULTY: "2"
+      SERVER_NAME: "Lazyfox Server"
       OPS: |-
         lazyfox80
     volumes:
