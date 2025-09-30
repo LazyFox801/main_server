@@ -8,7 +8,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
-      VERSION: "1.20.1"
+      VERSION: "1.21.1"
       MEMORY: "10240M"
       MAX_PLAYERS: "10"
       MOTD: "Добро пожаловать!"
@@ -23,11 +23,11 @@ services:
       OPS: |-
         lazyfox80
       MODRINTH_PROJECTS: |-
-        fabric-api:0.92.2+1.20.1,
-        azurelib,
-        smartbrainlib,
-        happiness-is-a-warm-gun:2.0.1,
-        refill-chests
+        fabric-api:0.116.6+1.21.1,
+        azurelib:3.0.32,
+        smartbrainlib:1.16.10,
+        happiness-is-a-warm-gun:3.0.4,
+        emi:1.1.22+1.21.1+fabric
       MODRINTH_ALLOWED_VERSION_TYPE: "release"
       REMOVE_OLD_MODS: "TRUE"
     volumes:
