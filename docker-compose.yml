@@ -8,6 +8,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
+      VERSION: "1.21.8"                   
       MEMORY: "10240M"
       MAX_PLAYERS: "10"
       MOTD: "Добро пожаловать!"
@@ -21,5 +22,18 @@ services:
       SERVER_NAME: "Lazyfox Server"
       OPS: |-
         lazyfox80
+
+      MODRINTH_PROJECTS: "fabric-api,odyssey-claims,claimorous" 
+      MODRINTH_ALLOWED_VERSION_TYPE: "release" 
+      REMOVE_OLD_MODS: "TRUE"
+
+      # Пример использования списка проектов из файла (раскомментировать при необходимости):
+      # MODRINTH_PROJECTS: "@/extras/modrinth-mods.txt"
+
+      # Отладка выбора версий (включать при проблемах):
+      DEBUG: "true"
+
     volumes:
       - "./data:/data"
+      # Для списка проектов из файла (если используете вариант с "@/extras/..."):
+      # - "./extras:/extras"
