@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server:java21  # лучше зафиксировать тег, чем :latest
+    image: itzg/minecraft-server:java21
     tty: true
     stdin_open: true
     restart: unless-stopped
@@ -36,7 +36,7 @@ services:
         fabric-api:0.116.6+1.21.1
         azurelib:3.0.32
         smartbrainlib:1.16.10
-        happiness-is-a-warm-gun:3.0.4
+        vics-point-blank:1.9.6
         emi:1.1.22+1.21.1+fabric
         common-network:1.0.18-1.21.1
 
