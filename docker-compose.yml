@@ -23,23 +23,8 @@ services:
       OPS: |-
         lazyfox80
 
-      # Автозагрузка модов и зависимостей:
-      # fabric-api — базовая библиотека Fabric
-      # odyssey-claims (Cadmus) — клеймы
-      # claimorous — клеймы
-      # resourceful-lib — зависимость Cadmus
-      # cloth-config — зависимость Claimorous
-      MODRINTH_PROJECTS: |-
-        fabric-api:0.92.2+1.20.1
-        odyssey-claims
-        claimorous
-        resourceful-lib:2.1.2
-        cloth-config:11.1.118+fabric
-
-      # Фиксируем стабильные релизы под 1.20.1:
+      MODRINTH_PROJECTS: "fabric-api:0.92.2+1.20.1,odyssey-claims,claimorous,resourceful-lib:2.1.24,cloth-config:11.1.118+fabric"
       MODRINTH_ALLOWED_VERSION_TYPE: "release"
-
-      # Чистим старые jar при обновлениях:
       REMOVE_OLD_MODS: "TRUE"
 
     volumes:
