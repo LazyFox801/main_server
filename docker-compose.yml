@@ -42,3 +42,4 @@ services:
       FUNCTION_PERMISSION_LEVEL: "4"
     volumes:
       - "./data:/data"
+      - "./mods:/mods:ro"
