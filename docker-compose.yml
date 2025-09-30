@@ -24,11 +24,9 @@ services:
         lazyfox80
 
       FETCH_RESPONSE_TIMEOUT: "PT90S"
-      
       DEBUG: "true"
 
       MODRINTH_DOWNLOAD_DEPENDENCIES: "required"
-
       MODRINTH_ALLOWED_VERSION_TYPE: "release"
       REMOVE_OLD_MODS: "TRUE"
 
@@ -42,5 +40,6 @@ services:
         geckolib:4.8.2
         battle-royale-:48+mod
 
+      FUNCTION_PERMISSION_LEVEL: "4"
     volumes:
       - "./data:/data"
