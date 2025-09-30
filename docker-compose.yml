@@ -38,7 +38,6 @@ services:
         emi:1.1.22+1.21.1+fabric
         common-network:1.0.18-1.21.1
         geckolib:4.8.2
-        battle-royale-:41+mod
 
       FUNCTION_PERMISSION_LEVEL: "4"
     volumes:
