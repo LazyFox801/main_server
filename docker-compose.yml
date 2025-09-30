@@ -27,7 +27,8 @@ services:
         azurelib:3.0.32,
         smartbrainlib:1.16.10,
         happiness-is-a-warm-gun:3.0.4,
-        emi:1.1.22+1.21.1+fabric
+        emi:1.1.22+1.21.1+fabric,
+        common-networking-fabric-1.0.20-1.21.7
       MODRINTH_ALLOWED_VERSION_TYPE: "release"
       REMOVE_OLD_MODS: "TRUE"
     volumes:
