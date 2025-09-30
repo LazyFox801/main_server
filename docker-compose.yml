@@ -8,7 +8,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "FABRIC"
-      VERSION: "1.20.1"                   
+      VERSION: "1.20.1"
       MEMORY: "10240M"
       MAX_PLAYERS: "10"
       MOTD: "Добро пожаловать!"
@@ -23,17 +23,24 @@ services:
       OPS: |-
         lazyfox80
 
-      MODRINTH_PROJECTS: "fabric-api,odyssey-claims,claimorous" 
-      MODRINTH_ALLOWED_VERSION_TYPE: "release" 
+      # Автозагрузка модов и зависимостей:
+      # fabric-api — базовая библиотека Fabric
+      # odyssey-claims (Cadmus) — клеймы
+      # claimorous — клеймы
+      # resourceful-lib — зависимость Cadmus
+      # cloth-config — зависимость Claimorous
+      MODRINTH_PROJECTS: |-
+        fabric-api:0.92.2+1.20.1
+        odyssey-claims
+        claimorous
+        resourceful-lib:2.1.2
+        cloth-config:11.1.118+fabric
+
+      # Фиксируем стабильные релизы под 1.20.1:
+      MODRINTH_ALLOWED_VERSION_TYPE: "release"
+
+      # Чистим старые jar при обновлениях:
       REMOVE_OLD_MODS: "TRUE"
-
-      # Пример использования списка проектов из файла (раскомментировать при необходимости):
-      # MODRINTH_PROJECTS: "@/extras/modrinth-mods.txt"
-
-      # Отладка выбора версий (включать при проблемах):
-      DEBUG: "true"
 
     volumes:
       - "./data:/data"
-      # Для списка проектов из файла (если используете вариант с "@/extras/..."):
-      # - "./extras:/extras"
